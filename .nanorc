@@ -1,0 +1,78 @@
+## Author: Binh Q. Nguyen
+## Description: Personal nanorc
+
+## Use auto-indentation.
+set autoindent
+
+## Don't do case sensitive searches by default.
+unset casesensitive
+
+## Constantly display the cursor position in the statusbar.  Note that
+## this overrides "quickblank".
+set const
+
+## Set the line length for wrapping text and justifying paragraphs.
+## If fill is 0 or less, the line length will be the screen width less
+## this number.
+##
+set fill 80
+
+## Enable ~/.nano_history for saving and reading search/replace strings.
+set historylog
+
+## Use the blank line below the titlebar as extra editing space.
+set morespace
+
+## Enable mouse support, if available for your system.  When enabled,
+## mouse clicks can be used to place the cursor, set the mark (with a
+## double click), and execute shortcuts.  The mouse will work in the X
+## Window System, and on the console when gpm is running.
+##
+set mouse
+
+## Don't convert files from DOS/Mac format.
+# set noconvert
+
+## Don't display the helpful shortcut lists at the bottom of the screen.
+# set nohelp
+
+## Do wrap text.
+unset nowrap
+
+## Do extended regular expression searches by default.
+# set regexp
+
+## Make the Home key smarter.  When Home is pressed anywhere but at the
+## very beginning of non-whitespace characters on a line, the cursor
+## will jump to that beginning (either forwards or backwards).  If the
+## cursor is already at that position, it will jump to the true
+## beginning of the line.
+set smarthome
+
+## Use smooth scrolling as the default.
+set smooth
+
+## Use this spelling checker instead of the internal one.  This option
+## does not properly have a default value.
+##
+set speller "aspell -x -c"
+
+## Allow nano to be suspended.
+set suspend
+
+## Use this tab size instead of the default; it must be greater than 0.
+set tabsize 2
+
+## Convert typed tabs to spaces.
+set tabstospaces
+
+## Enable the new (EXPERIMENTAL) generic undo code, not just for line cuts
+set undo
+
+## Enable soft line wrapping (AKA full line display)
+set softwrap
+
+## Key bindings
+
+## Toggle case sensitive mode in searches.
+bind M-A casesens search
