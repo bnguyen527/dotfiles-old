@@ -9,7 +9,7 @@ unset casesensitive
 
 ## Constantly display the cursor position in the statusbar.  Note that
 ## this overrides "quickblank".
-set const
+# set const
 
 ## Set the line length for wrapping text and justifying paragraphs.
 ## If fill is 0 or less, the line length will be the screen width less
@@ -67,7 +67,7 @@ set tabsize 2
 set tabstospaces
 
 ## Enable the new (EXPERIMENTAL) generic undo code, not just for line cuts
-set undo
+# set undo
 
 ## Enable soft line wrapping (AKA full line display)
 set softwrap
